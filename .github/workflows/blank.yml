@@ -24,7 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+      
+      - name: setup-msbuild
+        uses: microsoft/setup-msbuild@v1.1
+        
       - name: create dacpac
         run: |
           & 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\msbuild.exe' kcdemodbproject.sqlproj /p:Configuration=Release
