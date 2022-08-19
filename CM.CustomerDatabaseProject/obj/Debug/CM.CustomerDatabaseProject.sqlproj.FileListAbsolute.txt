@@ -1,0 +1,10 @@
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\bin\Debug\CM.CustomerDatabaseProject.dacpac
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\bin\Debug\CM.CustomerDatabaseProject.dll
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\bin\Debug\CM.CustomerDatabaseProject.pdb
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\obj\Debug\CM.CustomerDatabaseProject.sqlproj.AssemblyReference.cache
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\obj\Debug\Model.xml
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\obj\Debug\refactor.xml
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\obj\Debug\postdeploy.sql
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\obj\Debug\predeploy.sql
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\obj\Debug\CM.CustomerDatabaseProject.dll
+C:\Users\dustt\source\repos\CM.CustomerDatabaseProject\CM.CustomerDatabaseProject\obj\Debug\CM.CustomerDatabaseProject.pdb
