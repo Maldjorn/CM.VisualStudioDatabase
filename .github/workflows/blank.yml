@@ -24,15 +24,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      - name: setup-msbuild
+        uses: microsoft/setup-msbuild@v1.1
       
-      - name: Setup MSBuild.exe
-        # You may pin to the exact commit or the version.
-        # uses: warrenbuckley/Setup-MSBuild@1176db82e64cd53b4944f0e57c2abec104b4782d
-        uses: warrenbuckley/Setup-MSBuild@v1
-        
       - name: create dacpac
         run: |
-          & 'C:\Program Files (x86)\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\msbuild.exe' kcdemodbproject.sqlproj /p:Configuration=Release
+          & 'C:\Program Files(x86)\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSbuild.exe' kcdemodbproject.sqlproj /p:Configuration=Release
       # Publish an artifact
       - uses: actions/upload-artifact@v2
         with:
