@@ -59,11 +59,23 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="Scripts\" />
+    <Folder Include="dbo\StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Customers.sql" />
     <Build Include="dbo\Tables\AddressType.sql" />
     <Build Include="dbo\Tables\Addresses.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbo\StoredProcedures\CustomerAdd.sql" />
+    <None Include="dbo\StoredProcedures\AddressesAdd.sql" />
+    <None Include="dbo\StoredProcedures\AddressTypeAdd.sql" />
+    <None Include="dbo\StoredProcedures\CustomerDelete.sql" />
+    <None Include="dbo\StoredProcedures\AddressesDelete.sql" />
+    <None Include="dbo\StoredProcedures\AddressTypeDelete.sql" />
+    <None Include="dbo\StoredProcedures\AddressesUpdate.sql" />
+    <None Include="dbo\StoredProcedures\CustomersUpdate.sql" />
+    <None Include="dbo\StoredProcedures\AddressTypeUpdate.sql" />
   </ItemGroup>
 </Project>
